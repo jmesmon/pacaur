@@ -1,99 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset='utf-8'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pacaur by Spyhawk</title>
 
-  <title>Spyhawk/pacaur @ GitHub</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Pacaur</h1>
+        <p>A fast workflow AUR helper using cower as backend</p>
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #cccccc;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #666666;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #ef9425; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #ef9425; }
-    h3 { text-align: center; color: #ef9425; }
-    a { color: #ef9425; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+        <p class="view"><a href="https://github.com/Spyhawk/pacaur">View the Project on GitHub <small>Spyhawk/pacaur</small></a></p>
 
-<body>
-  <a href="https://github.com/Spyhawk/pacaur"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
-  <div id="container">
+        <ul>
+          <li><a href="https://github.com/Spyhawk/pacaur/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Spyhawk/pacaur/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Spyhawk/pacaur">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="philosophy" class="anchor" href="#philosophy"><span class="octicon octicon-link"></span></a>Philosophy</h3>
 
-    <div class="download">
-      <a href="https://github.com/Spyhawk/pacaur/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/Spyhawk/pacaur/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+<blockquote>
+<p>pacaur is an Arch User Repository (AUR) helper aiming at speed and simplicity, designed to minimize user prompt interaction and to use an uncluttered interface.</p>
+</blockquote>
+
+<h3>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h3>
+
+<ul>
+<li>
+<a href="https://aur.archlinux.org/packages/cower/">cower</a>, a minimal AUR helper</li>
+<li>
+<a href="https://www.archlinux.org/packages/?sort=&amp;q=expac">expac</a>, a pacman database extraction utility</li>
+<li>
+<a href="https://www.archlinux.org/packages/?sort=&amp;q=sudo">sudo</a>, for privileges management</li>
+</ul><h3>
+<a name="get-the-package" class="anchor" href="#get-the-package"><span class="octicon octicon-link"></span></a>Get the package</h3>
+
+<ul>
+<li>
+<a href="https://aur.archlinux.org/packages.php?ID=49145">pacaur</a> (stable version)</li>
+<li>
+<a href="https://aur.archlinux.org/packages.php?ID=54046">pacaur-git</a> (development version)</li>
+</ul><h3>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h3>
+
+<ul>
+<li><a href="https://github.com/Spyhawk/pacaur/wiki">Installation</a></li>
+<li><a href="https://github.com/Spyhawk/pacaur/blob/master/README.pod">Man page</a></li>
+</ul><h3>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>GPL</p>
+
+<h3>
+<a name="support-and-contact" class="anchor" href="#support-and-contact"><span class="octicon octicon-link"></span></a>Support and Contact</h3>
+
+<p>Need help? Have a look at </p>
+
+<ul>
+<li>the <a href="https://wiki.archlinux.org/index.php/Pacaur">Arch Wiki</a> page</li>
+<li>the <a href="https://bbs.archlinux.org/viewtopic.php?id=119473">Arch forums</a> thread</li>
+<li>the <a href="https://github.com/Spyhawk/pacaur">GitHub issues</a> tracker</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Spyhawk">Spyhawk</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
-    <h1><a href="https://github.com/Spyhawk/pacaur">pacaur</a>
-      <span class="small">by <a href="https://github.com/Spyhawk">Spyhawk</a></span></h1>
-
-    <div class="description">
-      A fast workflow AUR helper using cower as backend
-    </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-    <p>pacaur is an Arch User Repository (AUR) helper aiming at speed and simplicity, designed to minimize user prompt interaction and to use an uncluttered interface. It is built upon the well designed cower and expac C backends.</p>
-    
-    <h2>Dependencies</h2>
-    <p>
-    <ul>
-        <li>cower</li>
-        <li>expac</li>
-        <li>sudo</li>
-    </ul>
-    </p>
-
-    <h2>AUR packages</h2>
-    <p>
-      <ul>
-        <li><a href="https://aur.archlinux.org/packages.php?ID=49145">pacaur</a> (stable)</li>
-        <li><a href="https://aur.archlinux.org/packages.php?ID=54046">pacaur-git</a> (development)</li>
-      </ul>
-    </p>
-
-    <h2>Documentation</h2>
-    <p>
-      <ul>
-        <li><a href="https://github.com/Spyhawk/pacaur/wiki">Installation</a></li>
-        <li><a href="https://github.com/Spyhawk/pacaur/blob/master/README.pod">Man page</a></li>
-      </ul>
-    </p>
-
-    <h2>License</h2>
-    <p>GPL</p>
-
-    <h2>Contact</h2>
-    <p>
-      <ul>
-        <li><a href="https://wiki.archlinux.org/index.php/Pacaur">Arch Wiki page</a></li>
-        <li><a href="https://bbs.archlinux.org/viewtopic.php?id=119473">Arch Forums thread</a></li>
-        <li><a href="https://github.com/Spyhawk">GitHub</a></li>
-      </ul>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/Spyhawk/pacaur">Spyhawk/pacaur</a>
-    </div>
-
-  </div>
-
-</body>
+  </body>
 </html>
